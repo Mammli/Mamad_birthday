@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تولد داداشم</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    body {
+      background-color: #a3d5ff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      animation: fadeIn 2s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .main-photo {
+      max-width: 50%;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      margin-bottom: 2rem;
+      animation: zoomIn 1.5s ease;
+    }
+    @keyframes zoomIn {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    .section {
+      width: 100%;
+      max-width: 700px;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+      animation: fadeInUp 1s ease forwards;
+      opacity: 0;
+    }
+    .section img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-top: 1rem;
+    }
+    .photo-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    .photo-row img {
+      flex: 1;
+      min-width: 30%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .final-message {
+      width: 100%;
+      max-width: 700px;
+      background: #ffffffdd;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      line-height: 2;
+      text-align: center;
+      animation: fadeInUp 1s ease forwards;
+      opacity: 0;
+    }
+    @keyframes fadeInUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <img src="https://s6.uupload.ir/files/photo18746930438_vklg.jpg" alt="عکس بچه کونی"class="main-photo">
+
+  <div class="section" style="animation-delay: 0.5s">
+    <h2> عکس با روسری</h2>
+    <p>عکس محمد خانوم با روسری جدیدش به مناسبت تولدش</p>
+    <img src="https://s6.uupload.ir/files/photo18746931859_5spd.jpg" alt="ممد خانوم">
+  </div>
+
+  <div class="section" style="animation-delay: 0.8s">
+    <h2>لحظات قشنگ</h2>
+    <div class="photo-row">
+      <img src="https://s6.uupload.ir/files/photo18747058644_uh0u.jpg" alt="لحظه ۱">
+      <img src="https://s6.uupload.ir/files/photo18747042107_1ksw.jpg" alt="لحظه ۲">
+      <img src="https://s6.uupload.ir/files/photo18747043106_lxkl.jpg" alt="لحظه ۳">
+    </div>
+  </div>
+
+  <div class="section" style="animation-delay: 0.8s">
+    <h2> آموزش ژست هایی دختر کش </h2>
+    <div class="photo-row">
+      <img src="https://s6.uupload.ir/files/20200506_170750_m0pn.jpg" alt="لحظه ۱">
+      <img src="https://s6.uupload.ir/files/img-20200506-wa0001_bjy6.jpg" alt="لحظه ۲">
+      <img src="https://s6.uupload.ir/files/img-20200506-wa0005_15wi.jpg" alt="لحظه ۳">
+    </div>
+  </div>
+
+  <div class="section" style="animation-delay: 1s">
+    <h2> بسه دیه</h2>
+    <p>خداحافظ</p>
+    <img src="https://s6.uupload.ir/files/img-20200713-wa0045_ig8c.jpg" alt="خداحافظ">
+  </div>
+
+
+  <div class="final-message" style="animation-delay: 2s">
+    <p>مرسی که تا اینجا اومدی</p>
+    <p>به مناسبت تولدت ساختم داداش </p>
+    <p>تولدت مبارکک</p>
+    <p>29/02/1404</p>
+  </div>
+</body>
+</html>
